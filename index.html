@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="Ikea Product Knowledge test" content="App that tests your knowledge of IKEA products.">
+  <title>IKEA Product Knowledge Test</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.1.1/normalize.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="float-grid.css" />
+</head>
+<body>
+    <header role ="banner">
+      <nav role ="navigation">
+        <div class = "home-link">
+          <a href="index.html">
+            <img src="imgs/maze.png" class="icon-img" alt="home-link">
+          </a>
+        </div> 
+        <ul class="quiz-stats">
+          <li>Question : <span class="question-number">0</span>/10</li>
+          <li> Score : <span class="score">0</span>/10</li>
+        </ul>
+      </nav>
+    </header>
+    <main role = "main">
+      <div class="row">
+        <div class= "col-12" >
+          <div class="js-quiz-content">
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="//code.jquery.com/jquery.min.js"></script>
+    <script type="text/javascript" src="index.js"></script>
+</body>
+</html>

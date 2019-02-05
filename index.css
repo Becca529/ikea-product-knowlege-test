@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+body {
+  background: url("imgs/background.jpg") no-repeat center center fixed;
+  background-size:cover;
+  font-family: 'Amatic SC', cursive;
+  font-size: 20px;
+  color: rgb(95,95,95);
+}
+
+button{
+  font-size: 18px;
+  margin-top: 5px;
+  padding: 5px;
+  background-color: lightgray;
+}
+
+#js-start-button{
+  margin-top: 35px;
+  padding:10px;
+  font-size: 22px;
+}
+
+.icon-img {
+  height: 45px;
+  margin: 20px;
+  float: left;
+}
+
+.quiz-stats {
+  float: right;
+  list-style-type: none;
+  margin-right: 25px;
+  margin-top: 10px;
+  font-style: bold;
+  font-size: 25px;
+}
+
+button:hover {
+	background-color: rgba(46, 148, 26, 0.467);
+	cursor: pointer;
+}
+
+.js-quiz-content {
+  margin: 0 auto;
+  text-align: center;
+  width:100%;
+  max-width: 600px;
+  margin-top: 20px;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 10px 10px gray;
+  background-color: rgba(255, 255, 255, .9);
+}
+
+.product-img {
+  display: block;
+  margin: 0 auto;
+  max-width: 400px;
+  width: 100%;
+}
+
+.feedback-img{
+  max-width:100%;
+  max-height:220px;
+  padding: 10px;
+}
+
+form{
+  margin-top:10px;
+}
+
+.answerOption {
+  font-size:20px;
+  padding: 10px;
+  margin: 0 10px 0 10px;
+}
+
+.question-9 .answerOption {
+  display:block;
+  text-align: left;
+  margin:5px;
+  font-size: 20px;
+}
+
+.questions {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.treat{
+  display: block;
+  margin: 0 auto;
+  max-width: 400px;
+  width: 100%;
+}
+
+.ikea-logo{
+  padding-top: 15px;
+  display: block;
+  margin: 0 auto;
+  max-width: 300px;
+  width: 100%;
+}
