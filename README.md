@@ -2,10 +2,10 @@
 
 Fun app that puts your Ikea product knowledge to the test by selecting the correct name of the product when looking at product images.
 
-[Live demo](https://becca529.github.io/portfolio/)
+[Live demo](https://becca529.github.io/ikea-product-knowlege-test/)
 
 ## Screenshot
-![TrendyEatz Screenshot](https://user-images.githubusercontent.com/29741321/52286149-adf48700-2935-11e9-8af3-b5c7eadfd88e.png))
+![ikea-product-quiz-screenshot](https://user-images.githubusercontent.com/29741321/52300957-37688100-2957-11e9-8b45-79c49371ce7b.png)
 
 ## Technologies used
 
